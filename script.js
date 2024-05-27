@@ -18,7 +18,7 @@ function switchTab(newTab) {
 
         if (!searchForm.classList.contains("active")) {
             userInfoContainer.classList.remove("active");
-            grantAccessContainer.classList.add("active");
+            grantAccessContainer.classList.remove("active");
             searchForm.classList.add("active");
         }
 
